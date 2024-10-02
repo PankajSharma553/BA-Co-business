@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --primary-font: "poppins";
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1242px;
+    width: 100%;
+    padding-inline: 1rem;
+    margin-inline: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+body{
+ font-family: var(--primary-font);
+}
