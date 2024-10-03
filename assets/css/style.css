@@ -378,9 +378,9 @@ p {
     padding-block: 58px;
 }
 .perfect_wrapper{
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
+    padding-bottom: 47px;
+    margin-bottom: 39px;
+   
 }
 .perfect_heading {
     text-align: center;
@@ -395,15 +395,12 @@ p {
 
 .perfetc_img {
     margin-bottom: 27px;
-
 }
 
 .perfetc_img img {
     max-width: 225px;
     height: 240px;
-    /* border: 1px solid var(--white-color); */
 }
-
 .perfect_card {
     text-align: center;
     display: flex;
@@ -419,43 +416,31 @@ p {
     line-height: 28.8px;
     text-align: center;
 }
-.center.slick-initialized.slick-slider {
-    padding: 0 12px;
-    border: 1px solid red;
-}
- .button    .slick-prev.slick-arrow {
-    background: red;
+.slick-prev, .slick-next {
+    top: 114%;
     border: 1px solid var(--white-color);
     padding: 11px;
-    height: 46px;
     width: 46px;
+    height: 46px;
     border-radius: 50%;
+    display: flex;
+    background-color: var(--secondary-color);
 }
-.slick-prev, .slick-next {
-    font-size: 0;
-    line-height: 0;
-    position: absolute;
-    top: 110%;
-    display: block;
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    -webkit-transform: translate(0, 50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    cursor: pointer;
-    color: transparent;
-    border: none;
-    outline: none;
-    background: transparent;
-}
-.slick-prev {
-    left: 50%;
-}
+
 .slick-next {
     right: 50%;
-    /* transform: rotate(-180deg); */
-   
+    transform: rotate(-180deg);
+    margin-left: 10px;
+}
+button.slick-prev.slick-arrow {
+    transform: rotate(180deg);
+    margin-left: 10px;
+    left: 50%;
+}
+.perfect_card{
+    max-width: 225px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* arrivals section */
