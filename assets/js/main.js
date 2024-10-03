@@ -1,39 +1,31 @@
+const header_navIcon = document.querySelector(".header_navIcon");
+header_navIcon.addEventListener("click",function(){
+  alert("hello")
+})
 
-var swiper = new Swiper(".mySwiper", {
-    // slidesPerView: 6,
-    // spaceBetween: 51,
-    centeredSlides: true,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+// slick slider code
+$('.center').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 5,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 5 
+      }
     },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-
-    breakpoints: {
-              0: {
-                slidesPerView: 1,
-              },
-              480: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-               
-              },  
-              768: {
-                slidesPerView: 3,
-                spaceBetween: 30,
-              },
-              
-              998: {
-                slidesPerView: 4,
-                spaceBetweenSlides: 20,
-              }, 
-              1300: {
-                slidesPerView: 6,
-                spaceBetweenSlides: 51,
-              }, 
-            },
-  });
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});

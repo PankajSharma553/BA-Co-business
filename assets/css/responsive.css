@@ -1,0 +1,261 @@
+/* media query 1400 large screen */
+@media (max-width:1400px) {
+    /* .header_topBar {
+        gap:2rem;
+    }
+    .header_search {
+        max-width: 800px;
+    } */
+}
+
+/* media query 1024 tablet and  small pc screen */
+@media (max-width:1024px) {
+    .about {
+        margin-bottom: 50px;
+    }
+
+    .about_content {
+        text-align: center;
+    }
+
+    .about_heading {
+        font-size: 30px;
+    }
+
+    .arrivals {
+        padding-block: 50px;
+    }
+
+    .arrivals_wrapper {
+        gap: 40px;
+    }
+
+    .categories {
+        padding-block: 50px;
+    }
+
+    .seller {
+        margin-bottom: 50px;
+    }
+
+    .footer_wrapper {
+        margin-bottom: 40px;
+    }
+
+    .footer_left {
+        gap: 16px;
+    }
+
+    .footer_icon {
+        max-width: 80px;
+
+    }
+
+    .footer_icon img {
+        max-width: 80px;
+    }
+}
+
+/* media query 768 tablet and  large mobile screen */
+@media (max-width:768px) {
+    .hero_heading {
+        font-size: 24px;
+    }
+
+    .about {
+        margin-bottom: 2rem;
+    }
+
+    .about_heading {
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+
+    .about_content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .about_btn {
+        padding: 9px 60px;
+    }
+
+    .banner_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+        row-gap: 10px;
+    }
+
+    .categories_wrapper {
+        gap: 48px;
+    }
+
+    .categories {
+        padding-block: 2rem;
+    }
+
+    .categories_img {
+        margin-bottom: 18px;
+    }
+
+    .categories_title {
+        font-size: 24px;
+    }
+
+    .arrivals {
+        padding-block: 2rem;
+    }
+
+    .arrivals_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+    }
+
+    .seller {
+        margin-bottom: 2rem;
+    }
+
+    .seller_inner {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+    }
+
+    .footer {
+        padding-block: 32px;
+    }
+
+    .footer_wrapper {
+        margin-bottom: 32px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_form {
+        max-width: 100%;
+    }
+
+    .footer_signUp {
+        max-width: 100%;
+    }
+
+    .footer_btmList {
+        gap: 0.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+/* media query 575 large mobile screen */
+@media (max-width:575px) {
+    .hero_wrapper {
+        flex-direction: column;
+    }
+
+    .hero_heading {
+        font-size: 20px;
+    }
+
+    .hero_left,
+    .hero_right,
+    .hero_heading,
+    .hero_content {
+        max-width: 100%;
+    }
+
+    .about_heading {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .about_wrapper {
+        flex-direction: column;
+    }
+
+    .about_left {
+        max-width: 100%;
+    }
+
+    .banner_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .arrivals_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .seller_inner {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        justify-items: center;
+    }
+
+    .seller_litsHeading {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .categories_img {
+        margin-bottom: 16px;
+    }
+
+    .categories_title {
+        font-size: 20px;
+    }
+
+
+    .footer_left {
+        flex-direction: column;
+    }
+
+}
+
+/* media query 480 mobile screen */
+@media (max-width:480px) {
+    .arrivals {
+        padding-block: 18px;
+    }
+
+    .arrivals_title {
+        text-align: center;
+        margin-bottom: 28px;
+    }
+
+    .arrivals_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        justify-items: center;
+    }
+
+    .categories_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
+
+    .categories {
+        padding-block: 18px;
+    }
+
+    .arrivals {
+        padding-block: 18px;
+    }
+
+    .seller {
+        margin-bottom: 18px;
+    }
+
+    .seller_inner {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        justify-items: center;
+    }
+
+    .about {
+        margin-bottom: 18px;
+    }
+
+    .footer_wrapper {
+        margin-bottom: 16px;
+    }
+}
