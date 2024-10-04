@@ -1,9 +1,11 @@
 const header_navIcon = document.querySelector(".header_navIcon");
 const navbar = document.querySelector(".sideBar_menu");
 const closeBar = document.querySelector(".close_img");
+const sideBar_list = document.querySelector(".sideBar_list");
 
 header_navIcon.addEventListener("click",function(){
   navbar.classList.add("active")
+  sideBar_list.classList.add("transfrom")
 })
 
 closeBar.addEventListener("click",function(){

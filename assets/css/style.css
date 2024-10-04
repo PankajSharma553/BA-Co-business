@@ -232,15 +232,16 @@ p {
 .header_navLink:hover {
     color: var(--secondary-color);
 }
-
-
 .sideBar_menu{
     display: none;
 }
+
 .sideBar_menu.active{
     display: block;
 }
-
+.sideBar_list.transfrom{
+    left: 0;
+}
 .sideBar_list {
     width: 320px;
     max-width: 100%;
@@ -248,7 +249,7 @@ p {
     position: fixed;
      display: flex;
     top: 0;
-    left: 0;
+    left: -100%;
     padding: 2rem 1rem 1rem 1rem;
     flex-direction: column;
     gap: 20px;
@@ -257,7 +258,7 @@ p {
     /* opacity: 0.9; */
     border: 1px solid var(--white-color);
     box-shadow: var(--box-shadow);
-    transition: all 0.3s ease-in-out;
+    transition: right 0.3s ease-in-out;
 }
 .sideBar_link{
     color: var(--primary-color);
