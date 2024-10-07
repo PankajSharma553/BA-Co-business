@@ -216,7 +216,7 @@ p {
     align-items: center;
     gap: 10px;
     border-right: 1px solid #E7E1E1;
-    padding-right: 11px;
+    padding-right: 12px;
 }
 
 .header_navIcon {
@@ -367,6 +367,9 @@ p {
     text-align: center;
     gap: 50px;
 }
+.banner_card{
+    width: 100%;
+}
 
 .banner_icon {
     max-width: 75px;
@@ -404,7 +407,9 @@ p {
     gap: 75px;
     text-align: center;
 }
-
+.categories_shop{
+    width: 100%;
+}
 .categories_img {
     margin-bottom: 30px;
 }

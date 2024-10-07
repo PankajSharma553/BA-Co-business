@@ -8,13 +8,6 @@
         margin-bottom: 50px;
     }
 
-    .about_content {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
-
     .about_heading {
         font-size: 30px;
     }
@@ -146,7 +139,7 @@
     }
 
     .categories_wrapper {
-        gap: 48px;
+        gap: 20px;
     }
 
     .categories {
@@ -166,8 +159,8 @@
     }
 
     .arrivals_wrapper {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 3rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
     }
 
     .seller {
@@ -269,8 +262,7 @@
     }
 
     .arrivals_wrapper {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
+        gap: 2rem;
     }
 
     .seller_inner {
@@ -305,6 +297,10 @@
 
     .header_logo {
         max-width: 36px;
+    }
+
+    .header_navIcon {
+        min-width: 40px;
     }
 
     .arrivals {
@@ -385,5 +381,8 @@
 
     .footer_wrapper {
         margin-bottom: 16px;
+    }
+    .submit_btn {
+        padding: 8px 16px;
     }
 }
