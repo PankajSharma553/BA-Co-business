@@ -1,44 +1,38 @@
 const header_navIcon = document.querySelector(".header_navIcon");
 const navbar = document.querySelector(".sideBar_menu");
 const closeBar = document.querySelector(".close_img");
-const sideBar_list = document.querySelector(".sideBar_list");
-
-header_navIcon.addEventListener("click",function(){
+header_navIcon.addEventListener("click", function () {
   navbar.classList.add("active")
-  sideBar_list.classList.add("transfrom")
 })
-
-closeBar.addEventListener("click",function(){
+closeBar.addEventListener("click", function () {
   navbar.classList.remove("active")
 })
 
 // slick slider code
-$('.center').slick({
+$('.perfectSlider').slick({
   centerMode: true,
-  centerPadding: '51px',
+  centerPadding: '160px',
   slidesToShow: 4,
   autoplay: true,
   speed: 500,
-  autoplaySpeed: 1000,
+  autoplaySpeed: 1000000,
   responsive: [
-  ],
-  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '130px',
+        slidesToShow: 4
+      }
+    },
     {
       breakpoint: 1024,
       settings: {
         arrows: true,
         centerMode: true,
-        centerPadding: '51px',
-        slidesToShow: 4 
-      }
-    },
-    {
-      breakpoint: 998,
-      settings: {
-        arrows: true,
-        centerMode: true,
-        centerPadding: '45px',
-        slidesToShow: 3 
+        centerPadding: '110px',
+        slidesToShow: 3
       }
     },
     {
@@ -46,8 +40,8 @@ $('.center').slick({
       settings: {
         arrows: true,
         centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 2 
+        centerPadding: '60px',
+        slidesToShow: 2
       }
     },
     {
@@ -60,5 +54,5 @@ $('.center').slick({
       }
     }
   ]
- 
+
 });
