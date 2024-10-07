@@ -162,6 +162,7 @@ p {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 12px;
+    flex-wrap: wrap;
 }
 
 .header_navbarLeft {
@@ -184,7 +185,7 @@ p {
 
 .header_Leftlist {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 8px;
@@ -197,7 +198,7 @@ p {
 .header_Leftlink {
     font-family: var(--primary-font);
     font-size: 14.38px;
-    line-height: 20.8px;
+    line-height: 144%;
 }
 
 .header_navList {
@@ -245,21 +246,19 @@ p {
 }
 
 .sideBar_list {
-    width: 480px;
+    width: 320px;
     max-width: 100%;
     height: 100%;
     position: fixed;
     display: flex;
     top: 0;
     left: -100%;
-    padding: 2rem 1rem 1rem 1rem;
+    padding: 2rem 1rem 1rem 5rem;
     flex-direction: column;
     gap: 20px;
     z-index: 999;
     background: #FAE8DC;
-    /* opacity: 0.9; */
-    border: 1px solid var(--white-color);
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 0 5px 0px rgba(0 0 0 /20%);
     transition: all 0.3s ease-in-out;
 }
 
